@@ -13,7 +13,7 @@ window.fetch = (url, init, ...args) => {
       // newBody.variables.playerType = "site";
       // init.body = JSON.stringify(newBody);
     }
-    console.log(url);
+    console.log("Url: " + url);
   }
   return origFetch(url, init, ...args);
 };
